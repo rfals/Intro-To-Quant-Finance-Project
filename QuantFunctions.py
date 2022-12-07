@@ -7,7 +7,8 @@ class QuantStuff:
     '''
     This class contains all the functions needed to price the Exotic Option.
     The main purpose behind it is to make the Juptyer Notebook more readable.
-    All parameters besides the number of simulations are stored in a list.
+    This should also improve the performance of the code most variables are made local to the functions.
+    Also tried to make all the simulation functions asynchronous and ran them together, but it crashed my pc... :D
     '''
     def __init__(self, name= None):
         self.name = name
